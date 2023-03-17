@@ -48,7 +48,6 @@ main{
     flex-wrap: wrap;
     padding: 5px;
     
-    /*flex: auto;*/
 }
 #dragableContainer{
     float: right;
