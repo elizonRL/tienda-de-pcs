@@ -58,7 +58,12 @@ main{
     border:  1.5px dashed red;
     width: 350px;
     height: 250px;
+    align-items: center;
+    text-align: center;
 
+}
+#carritoImg{
+    margin-top: 5%;
 }
 .containerImg{
     border: 1px solid black;
