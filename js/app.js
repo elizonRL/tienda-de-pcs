@@ -11,7 +11,7 @@ function moviendoImg(event){
 
 function cambiarImg(event){
     for(let itenArray of arrayItem){
-      content.innerHTML = content.innerHTML +`<img src='${itenArray}'>`
+      content.innerHTML = `<img src='${itenArray}'>`
     }
 }
 
