@@ -6,10 +6,12 @@ var content;
 function moviendoImg(event){
     itemImg = event.target;
     arrayItem.push(itemImg.src);
+    setDatos(arrayItem);
     console.log(arrayItem);
 }
 
 function cambiarImg(event){
+  
   content.innerHTML = " ";
     for(let itenArray of arrayItem){
       content.innerHTML += `<img src='${itenArray}'>`
@@ -25,6 +27,7 @@ function domCargado(){
   avatarCont=document.getElementById("dragable");
   avatarCont.addEventListener("dragover", e=>{e.preventDefault()})
   avatarCont.addEventListener("drop", cambiarImg)
+  
 }
 
 document.addEventListener("DOMContentLoaded", domCargado)
