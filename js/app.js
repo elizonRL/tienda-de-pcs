@@ -10,8 +10,9 @@ function moviendoImg(event){
 }
 
 function cambiarImg(event){
+  content.innerHTML = " ";
     for(let itenArray of arrayItem){
-      content.innerHTML = `<img src='${itenArray}'>`
+      content.innerHTML += `<img src='${itenArray}'>`
     }
 }
 
@@ -21,7 +22,7 @@ function domCargado(){
   for(let item of imgProducto){
     item.addEventListener("dragstart", moviendoImg);
   }
-  avatarCont=document.getElementById("carritoImg");
+  avatarCont=document.getElementById("dragable");
   avatarCont.addEventListener("dragover", e=>{e.preventDefault()})
   avatarCont.addEventListener("drop", cambiarImg)
 }
