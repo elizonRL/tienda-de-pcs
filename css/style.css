@@ -15,7 +15,6 @@ header{
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    padding-top: 30px;
     font-weight: 300;
     font-size: 32px;
     padding-top: 75px;
@@ -68,13 +67,19 @@ main{
     margin-top: 5%;
 }
 .containerImg{
+    background-color: white;
     border: 1px solid black;
+    height: 350px;
     width: 250px;
     text-align: center;
     padding: 2px;
     margin-left: 5px;
     border-radius: 10px;
     margin-top: 5px;
+}
+.containerImg .cardbody{
+    border-top: solid 3px #fd0c49;
+    margin-top: 30%;
 }
 .btn{
     font-family: 'Poppins', sans-serif;
@@ -85,4 +90,5 @@ main{
     border-radius: 5px;
     background-color:#fd0c49;
     margin-top: 50px;
+    
 }
