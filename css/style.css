@@ -60,7 +60,9 @@ main{
     height: 250px;
     align-items: center;
     text-align: center;
-
+}
+#dragable p{
+    margin-top: 30%;
 }
 #carritoImg{
     margin-top: 5%;
